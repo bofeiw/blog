@@ -95,7 +95,7 @@ while ((ch = getchar()) != EOF) {
    // do something with ch
 }
 ```
-<span style="color:gray">This reminds me of the recent [PEP 572 -- Assignment Expressions](https://www.python.org/dev/peps/pep-0572/), which is added in Python 3.8, a new `:=` operator, which works like the assignment expression in C. But it might be a little bit of redundant to add yet another expression. If I were to make the decision, I would just let the `=` operator in Python to return the R value instead of creating another operator.</span>
+This reminds me of the recent [PEP 572 -- Assignment Expressions](https://www.python.org/dev/peps/pep-0572/), which is added in Python 3.8, a new `:=` operator, which works like the assignment expression in C. But it might be a little bit of redundant to add yet another expression. If I were to make the decision, I would just let the `=` operator in Python to return the R value instead of creating another operator.
 
 # Stacks, Queues, PriorityQs recap
 - Stack: LIFO (Last In First Out)
