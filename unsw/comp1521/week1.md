@@ -28,7 +28,7 @@ Recommended reference:
   Bryant and O'Halloren
 
 # Computer Systems
-![Component view of typical modern computer system](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/system/components.png)
+![Component view of typical modern computer system](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/system/components.png)  
 *Component view of typical modern computer system*
 
 ## Processor
@@ -43,7 +43,7 @@ Modern processors provide:
 - all integrated on a single chip  
 
 ## Storage
-![How typical C compiler uses the memory](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/memory/regions.png)
+![How typical C compiler uses the memory](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/memory/regions.png)  
 *How typical C compiler uses the memory*  
 Memory (main memory) consists of:
 - very large random-addressable array of bytes  
@@ -58,12 +58,12 @@ Disk storage consist of:
 - nowadays, SSD: access time 100 µs, size 512GB  
 
 ## Computer System Layers
-![View of software layers in typical computer system](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/system/layers.png)  
+![View of software layers in typical computer system](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/system/layers.png)    
 *View of software layers in typical computer system*  
 
 
 ## C Program Life-cycle
-![From source code to machine code](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/compile/compilation.png)  
+![From source code to machine code](https://www.cse.unsw.edu.au/~cs1521/19T2/lectures/week01/Pics/compile/compilation.png)    
 *From source code to machine code* 
 
 # C programming language recap
