@@ -169,10 +169,10 @@ Pass by reference is not compatible with C as it does not support it.
 
 ## Lvalue and Rvalue
 - rvalues may only appear on the RHS of an assignment
-- lvalues may appear on both the LHS and RHS
+- lvalues may appear on both the LHS and RHS  
 ### Call by value
 - The rvalue of an actual argument is passed 
-- Cannot access/modify the actual argument in the callee
+- Cannot access/modify the actual argument in the callee  
 ### Call by reference
 - The lvalue of an actual argument is passed
 - May access/modify directly the actual argument
@@ -252,7 +252,7 @@ Like make, bazel is another open source build system.
 - name
 - list of sources `srcs`
 - lsit of headers `hdrs`
-- list of dependencies `deps`
+- list of dependencies `deps`  
 ## types of build rules
 - `cc_library` A piece of code that can't run on its own, but can be depended upon by other files
 - `cc_binary` The srcs should have a main function, has no headers, cannot be tested
