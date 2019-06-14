@@ -1,7 +1,7 @@
 # UNSW COMP6771 (Advanced C++) Week 1
 
 # C++ vs C
-```C++
+```cpp
 // helloworld.cpp
 #include <iostream>
 
@@ -16,7 +16,7 @@ int main() {
 - compile: `g++ -std=c++17 -o helloworld helloworld.cpp`
 
 ## "\n" vs std::endl
-```C++
+```cpp
 // The following two are equivalent
  
 std::cout << "\n" << std::flush;
@@ -25,7 +25,7 @@ std::cout << std::endl;
 When streaming things to `stdout`, things are stored in a buffer. things are sent to terminal when the buffer is flushed. `std::endl` sends a `\n` and also do a flush. For devices with limited computational power, `\n` is better as it gives better performance.
 
 # Runtime error
-```C++
+```cpp
 #include <string>
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
 Runtime error is compiler-dependent. This error might crash and also might be ignored.
 
 # `const`
-```C++
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -61,7 +61,7 @@ int main() {
 - Prevents bugs from changing things you shouldn't
 
 # References
-```C++
+```cpp
 int i = 1;
 int j = 2;
 
@@ -72,7 +72,7 @@ std::cout << "i = " << i << ", j = " << j << ", k = " << k << '\n';
 Reference is similar to C, but without the need of using `->` to access the value. It is like an alias to the original object. Reference is always `const` and is not null.
 
 ## References to `const`
-```C++
+```cpp
 int i = 1;
 const int& ref = i;
 std::cout << ref << '\n';
@@ -82,7 +82,7 @@ ref++; // This is not
 ```
 
 ## References to literal value
-```C++
+```cpp
 const int &i = 1; // this works
 int &i = 1; // this does not
 ```
@@ -97,7 +97,7 @@ The value of the object cannot be modified through the `const` reference but the
 
 # Class templates
 `std::optional<T>`, `std::vector<T>`, `std::unordered_map<KeyT, ValueT>` for example.
-```C++
+```cpp
 #include <unordered_map>
 #include <vector>
 
@@ -118,7 +118,7 @@ std::vector<std::unordered_map<int, std::string>> GetVectorOfMaps();
 - `std::vector<int>` and `std::vector<string>` are 2 different types, unlike Java
 
 # `auto`
-```C++
+```cpp
 auto i = 0; // i is an int
 
 std::vector<int> fn();
@@ -140,7 +140,7 @@ Compiler will deduct the actual type of `auto`. Take exactly the type on the rig
 
 # Functions
 ## Default function values
-```C++
+```cpp
 string Rgb(short r = 0, short g = 0, short b = 0);
 Rgb();// rgb(0, 0, 0);
 Rgb(100);// Rgb(100, 0, 0);
@@ -149,7 +149,7 @@ Rgb(100, , 200);   // error
 ```
 Default arguments are like Python, but arguments cannot be specified when calling it. And if one parameter uses default argument, all other parameters also need to have a default value. So `void test(int a = 0, int b);` does not work.
 ## Pass by reference
-```C++
+```cpp
 void swap(int& x, int& y) {
   int tmp;
   tmp = x;
@@ -158,7 +158,7 @@ void swap(int& x, int& y) {
 }
 ```
 With the pass by reference, to use it, just need to call it without pointer styles:
-```C++
+```cpp
 swap(i, j);
 ```
 Pass by reference is useful when:
@@ -179,7 +179,7 @@ Pass by reference is not compatible with C as it does not support it.
 - Eliminates the overhead of passing a large object
 
 # Function Overloading
-```C++
+```cpp
 void Print(double d);      // (1)
 int  Print(std::string s); // (2)
 void Print(char c);        // (3)
@@ -189,7 +189,7 @@ Print('A');                // call (3)
 ```
 C++ function overloading is very similar to Java function overloading. Return types are ignored when overloading.  
 Top-level `const` is ignored but low-level `const` is not.
-```C++
+```cpp
 // Top-level const ignored
 Record Lookup(Phone p);
 Record Lookup(const Phone p); // redefinition
@@ -205,7 +205,7 @@ Lookup(q); // (2)
 ```
  
 # `constexpr`
-```C++
+```cpp
 // Beats a #define any day.
 constexpr int max_n = 10;
 
