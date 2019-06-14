@@ -71,7 +71,7 @@ Disk storage consist of:
 ## Type Definitions
 `typedef` is very handy. It is useful when we want some variables has a consistent type. For example, we can define `Integer` to `int`, and later if we found that `int` is not enough, we can just change the definition of `Integer` to `long long int` without modifying bunch of declarations of variables. It is also used in `struct`, where we would not need to write `struct` every time we declare a `struct` variable.  
 Some examples of `typedef`:
-```C
+```c
 typedef int Integer;
 typedef long long int BigInt;
 typedef unsigned char Byte;
@@ -82,7 +82,7 @@ typedef struct { int x; int y; } Coord;
 Assignments in C can be treated as expressions returning a value, so `x = y = z = 0;` can be understood equivalently as `x = (y = (z = 0));` recursively.  
 
 This is useful in combination with loops. Instead of writing 
-```C
+```c
 ch = getchar();
 while (ch != EOF) {
    // do something with ch
@@ -90,7 +90,7 @@ while (ch != EOF) {
 }
 ```
 We can write it in a more concise way:
-```C
+```c
 while ((ch = getchar()) != EOF) {
    // do something with ch
 }
