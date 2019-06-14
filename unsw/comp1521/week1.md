@@ -115,7 +115,7 @@ But they [depends on the compiler](https://stackoverflow.com/a/11438838/9494810)
 
 ## Bitwise AND `&`
 Performs logical AND on each corresponding pair of bits
-```
+```text
   00100111           AND | 0  1  
 & 11100011           ----|-----  
   --------             0 | 0  0  
@@ -125,7 +125,7 @@ This can improve the efficiency of the function to determine if a number is odd.
 
 ## Bitwise OR `|`
 Performs logical OR on each corresponding pair of bits
-```
+```text
   00100111            OR | 0  1
 | 11100011           ----|-----
   --------             0 | 0  1
@@ -134,10 +134,30 @@ Performs logical OR on each corresponding pair of bits
 
 ## Bitwise NEG `~` (unary)
 Performs logical negation of each bit
-```
+```text
 ~ 00100111           NEG | 0  1
   --------           ----|-----
   11011000               | 1  0
 ```
 
+## Bitwise XOR `^`
+Performs logical XOR on each corresponding pair of bits
+```text
+  00100111           XOR | 0  1
+^ 11100011           ----|-----
+  --------             0 | 0  1
+  11000100             1 | 1  0
+```
+This is very useful in cryptography. Doing xor twice on the same number will get the original number back.
 
+## Left Shift `<<`
+Shifts all bit to the left if `unsigned`, very fast
+```text
+  00100111 << 2      00100111 << 8
+  --------           --------
+  10011100           00000000
+```
+But if the number is `signed`, a algorithmic shift will be performed.
+
+## Right Shift `>>`
+Shifts all bit to the left if `unsigned`. Algorithmic shift if `signed` and the signed bit replaces left-end bit.
