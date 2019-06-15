@@ -11,7 +11,7 @@ C++ is backwards compatible with C, however, while valid C code is often valid C
 # Notes
 For Mac users who can not run the `chmod` to set up environment on your own machine, try this line:
 ```text
-chmod a+x ~/Library/Application Support/.CLion2019.*/clwb/gdb/gdbserver
+chmod a+x ~/Library/Application\ Support/CLion2019.*/clwb/gdb/gdbserver
 ```
 Note to replace `*` to your actual CLion version. This works for me (macOS Catalina) because the CLion plugin path is [different](https://stackoverflow.com/a/23141889/9494810) from the provided path.
 
