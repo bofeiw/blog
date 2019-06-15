@@ -324,3 +324,21 @@ int main() {
 - set<T>
   - Search, removal, insertion have log(n) complexity
   - Contains sorted set of unique objects of type Key
+  
+# Fun stuffs
+## `auto` in function prototype
+```cpp
+auto f(auto a, auto b) {
+ return (a > b) ? a: b;
+}
+```
+This fragment of code is from a lab this week, when a student asks about using `auto` vs `template`.  
+The use of `auto` instead of `template` seems much more cleaner code. But it is not yet supported. Not until C++20. It is a GCC extension (since version 4.9), and **should** only be available when compiling with `-fconcepts` flag. When compiling with `-pedantic-errors` it reverts to what it should be doing, which is failing to compile. On macOS, `g++` is not **actually** `g++`, but rather `clang`, which does not have this extension thus will always fail to compile no matter what I tried for half my afternoon!  
+The code is conceptually same as the code below:
+```cpp
+template <typename T, typename U>
+auto f(T a, U b) {
+  return (a > b) ? a : b;
+}
+```
+This is longer, but is supported nicer. Hope `auto` in function prototype will be supported better!
