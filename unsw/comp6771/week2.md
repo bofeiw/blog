@@ -185,6 +185,7 @@ int main() {
 - `rend()`: before first element
 - `cend()`: after last element, const
 - `crend()`: before first element, const
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -251,7 +252,7 @@ int main() {
 ## STL: Containers
 STL containers are abstractions of common data structures
 
-![wk2_container_complexity](images/wk2_container_complexity.png)
+![wk2_container_complexity](images/wk2_container_complexity.png)  
 *https://en.cppreference.com/w/cpp/container*
 ### Sequential Containers
 - Elements have specific order controlled by programmer
