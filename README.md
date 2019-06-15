@@ -8,5 +8,4 @@ My blogs are hosted here!
 - [UNSW/COMP6771](unsw/comp6771)
 
 # TODO
-- inflate to html
-- add catalogue
+- inflate to html or custom markdown style
