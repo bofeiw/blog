@@ -65,7 +65,8 @@ int main() {
 
 # Type conversion
 - Implicit: Compiler-directed conversions
-- Explicit: Programmer-specified conversions
+- Explicit: Programmer-specified conversions  
+
 ```cpp
 // Implicit type conversion
 #include <iostream>
@@ -76,6 +77,7 @@ int main() {
   std::cout << age;
 }
 ```
+
 ## `static_cast`
 ```cpp
 double pi = 3.14;
@@ -152,6 +154,7 @@ STL is an architecture and design philosophy for managing generic and abstract c
 - Iterator is an abstract notion of a pointer
 - Iterators are types that abstract container data as a sequence of objects
 - The glue between containers and algorithms
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -247,11 +250,13 @@ int main() {
 
 ## STL: Containers
 STL containers are abstractions of common data structures
+
 ![wk2_container_complexity](images/wk2_container_complexity.png)
 *https://en.cppreference.com/w/cpp/container*
 ### Sequential Containers
 - Elements have specific order controlled by programmer
 - Class templates
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -279,6 +284,7 @@ int main() {
 - `std::array`: C-style array wrapper
 ### Associative Containers
 A value type is accessed through a second data type, the key.
+
 ```cpp
 #include <iostream>
 #include <map>
