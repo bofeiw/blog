@@ -49,7 +49,7 @@ int main () {
 int main() {
   std::cout << 1331 << std::endl; // 1331
   std::cout << "In hex " << std::hex << 1331 << std::endl; // In hex 533
-  std::cout << 1331.123456 << std::endl; // 1331.12
+  std::cout << 1331.123456 << std::endl; '// 1331.12
   std::cout.setf(std::ios::scientific, std::ios::floatfield);
   std::cout << 1331.123456 << std::endl; // 1.331123e+03
   std::cout << std::setprecision(3) << 1331.123456 << std::endl; // 1.331e+03

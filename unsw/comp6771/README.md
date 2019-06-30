@@ -4,6 +4,8 @@ This course is about the programming language C++
 # Catalogue
 - [Week 1](week1.md)
 - [Week 2](week2.md)
+- [Week 3](week3.md)
+- [Week 4](week4.md)
 
 # C++
 C++ is backwards compatible with C, however, while valid C code is often valid C++, good C is is almost never good C++ code, and C++ continues to diverge from C.
