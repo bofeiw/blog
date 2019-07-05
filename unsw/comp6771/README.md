@@ -5,7 +5,7 @@ This course is about the programming language C++
 - [Week 1 Intro](week1.md)
 - [Week 2 STL](week2.md)
 - [Week 3 OOP](week3.md)
-- [Week 4](week4.md)
+- [Week 4 Operator Overloading](week4.md)
 
 # C++
 C++ is backwards compatible with C, however, while valid C code is often valid C++, good C is is almost never good C++ code, and C++ continues to diverge from C.
