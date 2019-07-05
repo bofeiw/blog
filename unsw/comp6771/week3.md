@@ -1,4 +1,4 @@
-# UNSW COMP6771 (Advanced C++) Week 3
+# UNSW COMP6771 (Advanced C++) Week 3 OOP
 This week is about Object Oriented Programming in C++.
 
 ## Object Scope & Lifetime 

@@ -2,9 +2,9 @@
 This course is about the programming language C++
 
 # Catalogue
-- [Week 1](week1.md)
-- [Week 2](week2.md)
-- [Week 3](week3.md)
+- [Week 1 Intro](week1.md)
+- [Week 2 STL](week2.md)
+- [Week 3 OOP](week3.md)
 - [Week 4](week4.md)
 
 # C++

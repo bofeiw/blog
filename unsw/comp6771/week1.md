@@ -1,4 +1,4 @@
-# UNSW COMP6771 (Advanced C++) Week 1
+# UNSW COMP6771 (Advanced C++) Week 1 Intro
 
 # C++ vs C
 ```cpp

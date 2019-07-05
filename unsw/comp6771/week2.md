@@ -1,4 +1,4 @@
-# UNSW COMP6771 (Advanced C++) Week 2
+# UNSW COMP6771 (Advanced C++) Week 2 STL
 This week is about STL containers, iterators and algorithms
 
 # I/O (Input / Output) in C++
