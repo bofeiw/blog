@@ -1,3 +1,6 @@
 
-.DS_Store
+# need * at the end for macOS Catalina beta bug (.DS_Store 2 may appear)
+.DS_Store*
+
+
 .idea
