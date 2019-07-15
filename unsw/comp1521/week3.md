@@ -1,4 +1,4 @@
-# COMP1521 Week 3
+# COMP1521 Week 3 CPU & MIPS
 This week we touched on CPU architecture and MIPS Assembly language. And the lab last week is about floating points, which is very interesting.
 
 ## CPU Architecture

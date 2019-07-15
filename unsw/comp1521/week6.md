@@ -1,4 +1,4 @@
-# COMP1521 Week 6
+# COMP1521 Week 6 files
 
 This week is all about files.
 

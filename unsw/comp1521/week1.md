@@ -1,4 +1,4 @@
-# COMP1521 Week 1
+# COMP1521 Week 1 Intro
 The first week's lecture gives an introduction to the course and some recaps of the C programming language.
 
 ## What is this course about

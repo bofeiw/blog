@@ -1,4 +1,4 @@
-# COMP1521 Week 5
+# COMP1521 Week 5 MIPS & syscall
 
 This week dives much deeper into MIPS and system calls.
 

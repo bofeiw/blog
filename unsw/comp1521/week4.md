@@ -1,4 +1,4 @@
-# COMP1521 Week 4
+# COMP1521 Week 4 more MIPS
 This week we continues to explore MIPS.
 
 ## Translate C to MIPS

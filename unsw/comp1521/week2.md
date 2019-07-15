@@ -1,4 +1,4 @@
-# COMP1521 Week 2
+# COMP1521 Week 2 Data
 This week is about data.
 
 # `make` and `Makefile`
