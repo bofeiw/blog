@@ -1,4 +1,4 @@
-# UNSW COMP6771 (Advanced C++) Week 3 Operator Overloading
+# UNSW COMP6771 (Advanced C++) Week 4 Operator Overloading
 
 This week, various topics in operator overloading are discussed.
 
