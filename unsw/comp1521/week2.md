@@ -53,6 +53,7 @@ Character Data is about encodings of characters.
   - The 2048 2-byte codes include most Latin-script alphabets
   - The 65536 3-byte codes include most Asian languages
   - The 2097152 4-byte codes include symbols and emojis
+  
 ## Numeric Data
 Numeric data comes in two major forms: integer and floating point numbers
 ### Signed Integers
