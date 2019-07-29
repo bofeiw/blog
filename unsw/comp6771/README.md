@@ -8,6 +8,7 @@ This course is about the programming language C++
 - [Week 4 Operator Overloading](week4.md)
 - [Week 5 Smart Pointer & Basic Exception](week5.md)
 - [Week 6 Templates](week6.md)
+- [Week 7 Templates and Custom Iterators](week7.md)
 
 # C++
 C++ is backwards compatible with C, however, while valid C code is often valid C++, good C is is almost never good C++ code, and C++ continues to diverge from C.
