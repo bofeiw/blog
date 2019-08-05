@@ -10,4 +10,6 @@ This folder contains the blog for the UNSW CSE course COMP1521 (Computer Systems
 - [Week 4 MIPS](week4.md)
 - [Week 5 MIPS & syscall](week5.md)
 - [Week 6 Files](week6.md)
-- [Week 7 Memory & Process Management](week7.md)
+- [Week 7 Memory Management](week7.md)
+- [Week 8 Process Management](week8.md)
+- [Week 9 Networking](week9.md)

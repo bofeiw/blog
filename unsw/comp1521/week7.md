@@ -1,4 +1,4 @@
-# COMP1521 Week 7 Memory & Process Management
+# COMP1521 Week 7 Memory Management
 
 This week is a bit hard and need more time to fully absorb.
 
@@ -82,6 +82,3 @@ Address processToPhysical(pid, Vaddr)
    return frame * P + offset;
 }
 ```
-
-## Process Management
-
