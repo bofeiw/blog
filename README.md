@@ -4,6 +4,7 @@ My blogs are hosted here!
 
 ## Catalogue
 
+- [Weekly Summary](weekly-summary/)
 - [UNSW](unsw)
 - [UNSW/COMP1521](unsw/comp1521)
 - [UNSW/COMP6771](unsw/comp6771)

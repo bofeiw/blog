@@ -1,4 +1,4 @@
-# 2019 Week 47
+# Weekly Summary
 
 This is my all new weekly summary, a place where I will summarise what I did for the past week and the future plan for the next week.
 
