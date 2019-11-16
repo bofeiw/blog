@@ -9,6 +9,7 @@ My blogs are hosted here!
 - [UNSW/COMP6771](unsw/comp6771)
 - [CSESoc UNSW Hackathon 2019](cseoc-unsw-hackathon-2019.md)
 - [SYNCS Hack 2019](syncs-hack-2019.md)
+- [Why I Swiched from Keychain to 1Password](why-i-switched-from-keychain-to-1password.md)
 
 ## TODO
 
