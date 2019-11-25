@@ -11,7 +11,6 @@ My blogs are hosted here!
 - [CSESoc UNSW Hackathon 2019](cseoc-unsw-hackathon-2019.md)
 - [SYNCS Hack 2019](syncs-hack-2019.md)
 - [Why](why)
-- [Why I Swiched from Keychain to 1Password](why/i-switched-from-keychain-to-1password.md)
 
 ## TODO
 
