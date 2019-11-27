@@ -8,3 +8,4 @@ I try to make what I did and am doing as transparent as possible to improve my e
 
 - 2019
     - [Week 47](2019-week-47.md)
+    - [Week 48](2019-week-48.md)
